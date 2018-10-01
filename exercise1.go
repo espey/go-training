@@ -13,6 +13,8 @@ func main() {
 		}
 	}
 
+	fmt.Println("Hello there", 42, true)
+
 	bar()
 }
 
