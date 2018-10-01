@@ -13,7 +13,9 @@ func main() {
 		}
 	}
 
-	fmt.Println("Hello there", 42, true)
+	n, err := fmt.Println("Hello there", 42, true)
+	fmt.Println(n)
+	fmt.Println(err)
 
 	bar()
 }
