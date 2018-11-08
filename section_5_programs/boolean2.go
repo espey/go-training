@@ -1,0 +1,16 @@
+package main
+
+import (
+  "fmt"
+)
+
+func main() {
+  a := 7
+  b := 42
+  fmt.Println(a == b) //false
+  fmt.Println(a <= b) //true
+  fmt.Println(a >= b) //false
+  fmt.Println(a != b) //true
+  c := 42
+  fmt.Println(b == c) //true
+}
